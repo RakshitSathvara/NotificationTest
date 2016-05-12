@@ -85,14 +85,14 @@ public class NoticationActivity extends Activity {
         }
 
     }
-
+/*
     public void viewTime() {
         Calendar c = Calendar.getInstance();
         SimpleDateFormat df = new SimpleDateFormat("HH:mm:ss");
         String formattedDate = df.format(c.getTime());
         Log.e("Rakshit", "Notifivation Open time : " + formattedDate);
         Toast.makeText(this, "Notifivation Open time : " + formattedDate, Toast.LENGTH_SHORT).show();
-    }
+    }*/
 
     private int getInterval() {
         int seconds = 60;
